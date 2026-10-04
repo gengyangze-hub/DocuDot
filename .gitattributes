@@ -1,0 +1,10 @@
+# 换行符：shell 脚本必须是 LF，否则 Linux 上会报 "\r: command not found"
+*.sh   text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf
+
+# 二进制文件别做换行转换
+*.xlsx binary
+*.db   binary
